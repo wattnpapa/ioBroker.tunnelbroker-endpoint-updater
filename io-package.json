@@ -59,7 +59,8 @@
         "readme": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/blob/master/README.md",
         "loglevel": "info",
         "mode": "schedule",
-        "type": "infrastructure",
+        "schedule": "*/10 * * * *",
+        "type": "network",
         "compact": true,
         "materialize": true,
         "dependencies": [
