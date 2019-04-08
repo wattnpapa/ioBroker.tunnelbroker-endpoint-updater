@@ -19,7 +19,8 @@
     "url": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^1.0.3"
+    "@iobroker/adapter-core": "^1.0.3",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

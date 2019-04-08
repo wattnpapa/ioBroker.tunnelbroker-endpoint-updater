@@ -26,6 +26,8 @@ class TunnelprokerEndpointUpdater extends utils.Adapter {
         this.on("stateChange", this.onStateChange);
         // this.on("message", this.onMessage);
         this.on("unload", this.onUnload);
+
+        this.updateIp();
     }
 
     /**
@@ -36,9 +38,9 @@ class TunnelprokerEndpointUpdater extends utils.Adapter {
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
-        this.log.info("config username: " + adapter.config.username);
-        this.log.info("config updatekey: " + adapter.config.updatekey);
-        this.log.info("config tunnelId: " + adapter.config.tunnelId);
+        this.log.info("config username: " + this.config.username);
+        this.log.info("config updatekey: " + this.config.updatekey);
+        this.log.info("config tunnelId: " + this.config.tunnelId);
 
         /*
         For every state in the system there has to be also an object of type state
@@ -122,6 +124,21 @@ class TunnelprokerEndpointUpdater extends utils.Adapter {
         } else {
             // The state was deleted
             this.log.info(`state ${id} deleted`);
+        }
+    }
+
+    /**
+     * Main Function that Updates the IP Address on Tunnelbroker.net
+     */
+    updateIp(){
+        try {
+            request("https://"+this.config.username+":"+this.config.updatekey+"@ipv4.tunnelbroker.net/nic/update?hostname="+this.config.tunnelId, function(error, response, result) {
+                this.log.info("update TunnelBroker IP output: " + result);
+            }).on("error", function(e) {
+                this.log.error(e);
+            });
+        } catch (e) {
+            this.log.error(e);
         }
     }
 
