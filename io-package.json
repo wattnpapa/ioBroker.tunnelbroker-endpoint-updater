@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "tunnelproker-endpoint-updater",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "HE Tunnelbroker Endpoint Updater",
+        "titleLang": {
+            "en": "HE Tunnelbroker Endpoint Updater",
+            "de": "HE Tunnelbroker Endpoint Updater",
+            "ru": "HE Tunnelbroker Endpoint Updater",
+            "pt": "Atualizador de Endpoint da Tunnelbroker",
+            "nl": "HE Tunnelbroker eindpuntupdater",
+            "fr": "HE Tunnelbroker Endpoint Updater",
+            "it": "HE Tunnelbroker Endpoint Updater",
+            "es": "Actualizador de punto final de corredor de túneles HE",
+            "pl": "HE Aktualizator punktu końcowego Tunnelbroker",
+            "zh-cn": "HE Tunnelbroker端点更新程序"
+        },
+        "desc": {
+            "en": "Updates your Dynamic Public IPv4 Address on tunnel broker.net",
+            "de": "Aktualisiert Ihre Dynamic Public IPv4-Adresse auf tunnel broker.net",
+            "ru": "Обновляет ваш динамический публичный IPv4-адрес на tunnel broker.net",
+            "pt": "Atualiza seu endereço IPv4 público dinâmico no túnel broker.net",
+            "nl": "Werkt uw Dynamic Public IPv4-adres bij op tunnelbroker.net",
+            "fr": "Met à jour votre adresse IPv4 publique dynamique sur tunnel broker.net",
+            "it": "Aggiorna il tuo indirizzo IPv4 pubblico dinamico su tunnel broker.net",
+            "es": "Actualiza su dirección IPv4 pública dinámica en tunnel broker.net",
+            "pl": "Aktualizuje dynamiczny publiczny adres IPv4 w broker.net tunelu",
+            "zh-cn": "在tunnel broker.net上更新您的动态公共IPv4地址"
+        },
+        "authors": [
+            "PowerPan <johannes.rudolph@gmx.com>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "tunnelproker-endpoint-updater.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/master/admin/tunnelproker-endpoint-updater.png",
+        "readme": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "schedule",
+        "type": "infrastructure",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "admin": ">=3.0.0"
+            }
+        ]
+    },
+    "native": {
+        "username": "",
+        "updatekey": "",
+        "tunnelId": null
+    },
+    "objects": [],
+    "instanceObjects": []
+}
