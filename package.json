@@ -6,9 +6,6 @@
     "name": "PowerPan",
     "email": "johannes.rudolph@gmx.com"
   },
-  "contributors": [
-    "bluefox <dogafox@gmail.com>"
-  ],
   "homepage": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater",
   "license": "MIT",
   "keywords": [
