@@ -1,6 +1,6 @@
 {
   "name": "iobroker.tunnelproker-endpoint-updater",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Updates your Dynamic Public IPv4 Address on tunnelbroker.net",
   "author": {
     "name": "PowerPan",
