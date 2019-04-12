@@ -1,19 +1,19 @@
 <h1>
-    <img src="admin/tunnelproker-endpoint-updater.png" width="64"/>
-    ioBroker.tunnelproker-endpoint-updater
+    <img src="admin/tunnelbroker-endpoint-updater.png" width="64"/>
+    ioBroker.tunnelbroker-endpoint-updater
 </h1>
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.tunnelproker-endpoint-updater.svg)](https://www.npmjs.com/package/iobroker.tunnelproker-endpoint-updater)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.tunnelproker-endpoint-updater.svg)](https://www.npmjs.com/package/iobroker.tunnelproker-endpoint-updater)
-[![Dependency Status](https://img.shields.io/david/PowerPan/iobroker.tunnelproker-endpoint-updater.svg)](https://david-dm.org/PowerPan/iobroker.tunnelproker-endpoint-updater)
-[![Known Vulnerabilities](https://snyk.io/test/github/PowerPan/ioBroker.tunnelproker-endpoint-updater/badge.svg)](https://snyk.io/test/github/PowerPan/ioBroker.tunnelproker-endpoint-updater)
+[![NPM version](http://img.shields.io/npm/v/iobroker.tunnelbroker-endpoint-updater.svg)](https://www.npmjs.com/package/iobroker.tunnelbroker-endpoint-updater)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.tunnelbroker-endpoint-updater.svg)](https://www.npmjs.com/package/iobroker.tunnelbroker-endpoint-updater)
+[![Dependency Status](https://img.shields.io/david/PowerPan/iobroker.tunnelbroker-endpoint-updater.svg)](https://david-dm.org/PowerPan/iobroker.tunnelbroker-endpoint-updater)
+[![Known Vulnerabilities](https://snyk.io/test/github/PowerPan/ioBroker.tunnelbroker-endpoint-updater/badge.svg)](https://snyk.io/test/github/PowerPan/ioBroker.tunnelbroker-endpoint-updater)
 
-[![NPM](https://nodei.co/npm/iobroker.tunnelproker-endpoint-updater.png?downloads=true)](https://nodei.co/npm/iobroker.tunnelproker-endpoint-updater/)
+[![NPM](https://nodei.co/npm/iobroker.tunnelbroker-endpoint-updater.png?downloads=true)](https://nodei.co/npm/iobroker.tunnelbroker-endpoint-updater/)
 
-**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/PowerPan/ioBroker.tunnelproker-endpoint-updater/master.svg)](https://travis-ci.org/PowerPan/ioBroker.tunnelproker-endpoint-updater)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/PowerPan/ioBroker.tunnelproker-endpoint-updater?branch=master&svg=true)](https://ci.appveyor.com/project/PowerPan/ioBroker-tunnelproker-endpoint-updater/)
+**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/PowerPan/ioBroker.tunnelbroker-endpoint-updater/master.svg)](https://travis-ci.org/PowerPan/ioBroker.tunnelbroker-endpoint-updater)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/PowerPan/ioBroker.tunnelbroker-endpoint-updater?branch=master&svg=true)](https://ci.appveyor.com/project/PowerPan/ioBroker-tunnelbroker-endpoint-updater/)
 
-## tunnelproker-endpoint-updater adapter for ioBroker
+## tunnelbroker-endpoint-updater adapter for ioBroker
 
 Updates your Dynamic Public IPv4 Address on tunnel broker.net
 
