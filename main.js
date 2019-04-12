@@ -12,7 +12,7 @@ const request = require("request");
 // Load your modules here, e.g.:
 // const fs = require("fs");
 
-class TunnelprokerEndpointUpdater extends utils.Adapter {
+class tunnelbrokerEndpointUpdater extends utils.Adapter {
 
     /**
      * @param {Partial<ioBroker.AdapterOptions>} [options={}]
@@ -20,7 +20,7 @@ class TunnelprokerEndpointUpdater extends utils.Adapter {
     constructor(options) {
         super({
             ...options,
-            name: "tunnelproker-endpoint-updater",
+            name: "tunnelbroker-endpoint-updater",
         });
         this.on("ready", this.onReady);
         this.on("objectChange", this.onObjectChange);
@@ -135,8 +135,8 @@ if (module.parent) {
     /**
      * @param {Partial<ioBroker.AdapterOptions>} [options={}]
      */
-    module.exports = (options) => new TunnelprokerEndpointUpdater(options);
+    module.exports = (options) => new tunnelbrokerEndpointUpdater(options);
 } else {
     // otherwise start the instance directly
-    new TunnelprokerEndpointUpdater();
+    new tunnelbrokerEndpointUpdater();
 }
