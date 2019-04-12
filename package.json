@@ -1,12 +1,12 @@
 {
-  "name": "iobroker.tunnelproker-endpoint-updater",
+  "name": "iobroker.tunnelbroker-endpoint-updater",
   "version": "0.0.2",
   "description": "Updates your Dynamic Public IPv4 Address on tunnelbroker.net",
   "author": {
     "name": "PowerPan",
     "email": "johannes.rudolph@gmx.com"
   },
-  "homepage": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater",
+  "homepage": "https://github.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater"
+    "url": "https://github.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3",
@@ -52,7 +52,7 @@
     "lint:ts": "tslint"
   },
   "bugs": {
-    "url": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/issues"
+    "url": "https://github.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater/issues"
   },
   "readmeFilename": "README.md"
 }
