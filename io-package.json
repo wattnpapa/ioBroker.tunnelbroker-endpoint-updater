@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "tunnelproker-endpoint-updater",
+        "name": "tunnelbroker-endpoint-updater",
         "version": "0.0.2",
         "news": {
             "0.0.2": {
@@ -53,10 +53,10 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "tunnelproker-endpoint-updater.png",
+        "icon": "tunnelbroker-endpoint-updater.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/master/admin/tunnelproker-endpoint-updater.png",
-        "readme": "https://github.com/PowerPan/ioBroker.tunnelproker-endpoint-updater/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater/master/admin/tunnelbroker-endpoint-updater.png",
+        "readme": "https://github.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater/blob/master/README.md",
         "loglevel": "info",
         "mode": "schedule",
         "schedule": "*/10 * * * *",
