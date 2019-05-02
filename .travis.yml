@@ -2,13 +2,12 @@ os:
   - linux
   - osx
   - windows
-
 language: node_js
 node_js:
   - '6'
   - '8'
   - '10'
-
+  - '12'
 env:
   - CXX=g++-4.8
 addons:
@@ -17,7 +16,6 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.9
-
 before_install:
   - 'if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then CC=gcc-4.9; fi'
   - 'if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then CC=g++-4.9; fi'
@@ -28,5 +26,5 @@ before_script:
   - npm install winston@2.3.1
   - 'npm install https://github.com/ioBroker/ioBroker.js-controller/tarball/master --production'
 script:
-  - npm run test:package
-  - npm run test:iobroker
+  - 'npm run test:package'
+  - 'npm run test:iobroker'
