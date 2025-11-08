@@ -58,6 +58,7 @@
         "extIcon": "https://raw.githubusercontent.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater/master/admin/tunnelbroker-endpoint-updater.png",
         "readme": "https://github.com/PowerPan/ioBroker.tunnelbroker-endpoint-updater/blob/master/README.md",
         "loglevel": "info",
+        "tier": 2,
         "mode": "schedule",
         "schedule": "*/10 * * * *",
         "type": "network",
