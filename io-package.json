@@ -45,9 +45,7 @@
             "PowerPan <johannes.rudolph@gmx.com>"
         ],
         "keywords": [
-            "ioBroker",
             "template",
-            "Smart Home",
             "home automation"
         ],
         "license": "MIT",
