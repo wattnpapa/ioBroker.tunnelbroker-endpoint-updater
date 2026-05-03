@@ -22,6 +22,8 @@ Updates your Dynamic Public IPv4 Address on tunnel broker.net
 ### 0.0.1
 * (PowerPan) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 MIT License
 
