@@ -19,6 +19,10 @@ Updates your Dynamic Public IPv4 Address on tunnel broker.net
 
 ## Changelog
 
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
+
 ### 0.0.1
 * (PowerPan) initial release
 
